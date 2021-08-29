@@ -1,0 +1,11 @@
+.all-expenses-page .primary-heading {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: var(--font-color-dark);
+}
+
+.all-expenses-page .expenses-list {
+  width: 50%;
+  margin-top: 2rem;
+  min-height: 100%;
+}

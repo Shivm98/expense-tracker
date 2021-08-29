@@ -1,0 +1,9 @@
+.page-container {
+  background-color: #fff;
+  border-radius: var(--radius);
+  padding: 2rem;
+  min-height: calc(100vh - 10rem);
+
+  display: flex;
+  flex-direction: column;
+}

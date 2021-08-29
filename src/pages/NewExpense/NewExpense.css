@@ -1,0 +1,14 @@
+.new-expense-page .primary-heading {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--font-color-dark);
+}
+
+.new-expense-page .inputs-container {
+  margin-top: 4rem;
+  width: 40rem;
+}
+
+.new-expense-page .inputs-container > *:not(:last-child) {
+  margin-bottom: 2rem;
+}

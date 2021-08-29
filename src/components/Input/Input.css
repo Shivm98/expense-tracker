@@ -1,0 +1,22 @@
+.input {
+  border: none;
+  width: 100%;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  background-color: rgb(209, 230, 253);
+  border: 2px solid transparent;
+}
+
+.input::placeholder {
+  font-size: 1.5rem;
+  color: var(--font-color-light);
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.input:focus {
+  outline: none;
+  border: 2px solid rgb(176, 214, 255);
+  border-radius: 10px;
+}

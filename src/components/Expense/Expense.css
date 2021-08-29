@@ -1,0 +1,53 @@
+.expense {
+  display: flex;
+  align-items: center;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+  padding: 1rem;
+  border-radius: 10px;
+  min-width: 100%;
+}
+
+.expense:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.expense .icon {
+  font-size: 2rem;
+  background-color: rgb(197, 255, 197);
+  color: var(--green-color);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem;
+  border-radius: 10px;
+  margin-right: 2rem;
+}
+
+.expense .data {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.expense .data .title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--font-color-light);
+  text-transform: capitalize;
+}
+
+.expense .data .time {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #aaa;
+}
+
+.expense .amount {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--font-color-light);
+  margin-left: auto;
+}
